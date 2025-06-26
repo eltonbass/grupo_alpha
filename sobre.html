@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Site Simples</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ad5ba0;">
+    <header style="background-color: #ad5ba0; color: white; text-align: center; padding: 10px;">
+        <h1>Sobre o Site</h1>
+    </header>
+
+    <section style="padding: 20px; display: flex; flex-direction: row; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+        <div style="background-color: white; padding: 20px; border: 1px solid #ccc; flex: 1 1 30%; box-sizing: border-box;">
+            <h2>Objetivo do Site</h2>
+            <p> Grupo Alpha é especialista em soluções empresariais, temos como objetivo principal proporcionar aos nossos clientes soluções ágeis organizadas e objetivas com foco na segurança, confiabilidade e qualidade nos serviços executados .</p>
+        </div>
+        <div style="background-color: white; padding: 20px; border: 1px solid #ccc; flex: 1 1 30%; box-sizing: border-box;">
+            <h2>Estrutura do Site</h2>
+            <p>A página contém um menu de navegação, formulários e informações sobre o conteúdo.</p>
+        </div>
+
+        <div style="background-color: white; padding: 20px; border: 1px solid #ccc; flex: 1 1 30%; box-sizing: border-box;">
+            <h2>Imagem de Exemplo</h2>
+            <img src="..\img\111.jpeg" alt="Exemplo de Imagem" style="width: 100%; max-width: 150px;">
+        </div>
+    </section>
+
+    <h3 style="text-align: center;">Links Relacionados</h3>
+    <ul style="text-align: center; list-style-type: none; padding: 0;">
+        <li><a href="https://www.wikipedia.org" target="_blank" style="text-decoration: none; color: #ccc;">wikipedia</a></li>
+        <li><a href="https:www.html.com"target="_blank" style="text-decoration: none; color:#ccc;">HTML.com</a></li>
+    </ul>
+
+    <footer style="text-align: center; padding: 10px; background-color: #333; color: white;">
+        <p>&copy; 2025 IDEP - Onstituto Estadual de Desenvolvimento da Educação Profissional de Rondonia</p>
+    </footer>
+    <!-- Responsividade com Media Queries -->
+     <style>
+        @media (max-width: 600px) {
+            section {
+                flex-direction: column;
+                padding: 10px;
+            }
+            div {
+                flex: 1 1 100%; /* Torna cada div com 100% da largura */
+                margin-bottom: 10px;
+            }
+        }
+     </style>
+</body>
+</html>
